@@ -35,6 +35,13 @@ move *.png G:\Pictures
 echo Done Moving Pictures------------
 title Done Moving Pictures
 
+title Moving Music
+echo Moving Music-----------------
+move *.mp3 G:\Music
+
+echo Done Moving Music------------
+title Done Moving Music
+
 title Moving Docs
 echo Moving Documents ---------------
 move *.txt G:\Documents
