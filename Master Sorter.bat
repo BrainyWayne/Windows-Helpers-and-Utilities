@@ -14,6 +14,7 @@ title Done Moving Movies
 title Moving Softwares
 echo Moving softwares -----------------
 move *.exe G:\Softwares
+move *.msi G:\Softwares
 echo Done Moving softwares ------------
 title Done Moving softwares 
 
@@ -38,7 +39,7 @@ title Done Moving Pictures
 title Moving Music
 echo Moving Music-----------------
 move *.mp3 G:\Music
-
+move *.m4a G:\Music
 echo Done Moving Music------------
 title Done Moving Music
 
@@ -51,6 +52,7 @@ move *.pdf G:\Documents
 move *.htm G:\Documents
 move *.ipyb G:\Documents
 move *.ipynb G:\Documents
+move *.rtf G:\Documents
 move *.html G:\Documents
 move *.ppt G:\Documents
 move *.pptx G:\Documents
@@ -58,3 +60,4 @@ move *.sql "G:\Course Files\2nd yr\Database\Lab works"
 echo Done moving documents -----------
 title Done moving documens 
 
+pause
